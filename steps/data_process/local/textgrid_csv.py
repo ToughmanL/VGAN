@@ -192,7 +192,7 @@ class Text2Csv():
     # self._save_select_file(select_file_list, 'tmp/select_filename.txt')
 
 def lsj_textgrid2csv():
-  text_dir = "/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/Control/N_10008_F"
+  text_dir = "/MSDM/labeled_data/Control/N_10008_F"
   csv_path = "tmp/N_10008_F_allinfo.csv"
   T2C = Text2Csv()
   T2C.get_all_file(text_dir)
@@ -200,7 +200,7 @@ def lsj_textgrid2csv():
   T2C.lsj_add_syllble(csv_path)
 
 def textgrid2csv():
-  text_dir = "/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/20230605"
+  text_dir = "/MSDM/labeled_data/20230605"
   csv_path = "tmp/20230803.csv"
   T2C = Text2Csv(text_dir)
   T2C.text_csv(csv_path, 1)

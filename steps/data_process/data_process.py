@@ -21,7 +21,7 @@ class Data_Process():
   def textgrid_csv(self):
     from local.textgrid_csv import Text2Csv
     # read textgrid files and convert to csvfile
-    text_dir = "/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/20230605"
+    text_dir = "/MSDM/labeled_data/20230605"
     csv_path = "tmp/20230921.csv"
     T2C = Text2Csv(text_dir)
     T2C.text_csv(csv_path, 80)
@@ -30,7 +30,7 @@ class Data_Process():
   def segment_audio_video(self):
     from local.segment_audio_video import SegmentAudioVideo
     # audio and video segmentation
-    video_path = "/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/20230605"
+    video_path = "/MSDM/labeled_data/20230605"
     out_put_path = "./tmp/230617_segmen_data"
     csv_path = "./tmp/20230617.csv"
     SAV = SegmentAudioVideo(video_path, out_put_path)

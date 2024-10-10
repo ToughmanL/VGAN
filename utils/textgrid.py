@@ -247,7 +247,7 @@ def write_entry2textgrid(tiers, duration, new_gridpath):
 
 if __name__ == "__main__":
     #textgrid2csv()
-    grid_file = '/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/20230605/Patient/S_00008_M/S_M_00008_G3_task6_1.TextGrid'
+    grid_file = '/MSDM/labeled_data/20230605/Patient/S_00008_M/S_M_00008_G3_task6_1.TextGrid'
     # csv_file = 
     tgrid = read_textgrid(grid_file, 'TEXT')
     print(tgrid)

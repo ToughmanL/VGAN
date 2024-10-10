@@ -142,7 +142,7 @@ def read_textgrid(filename, tierName='phones'):
 
 if __name__ == "__main__":
     #textgrid2csv()
-    grid_file = '/mnt/shareEEx/liuxiaokang/data/MSDM/labeled_data/Control/N_10008_F/N_F_10008_G1_task1_1.TextGrid'
+    grid_file = '/MSDM/labeled_data/Control/N_10008_F/N_F_10008_G1_task1_1.TextGrid'
     csv_file = 'N_F_10008_G1_task1_1.csv'
     tgrid = read_textgrid(grid_file, 'TEXT')
     error = read_textgrid(grid_file, 'ERROR')

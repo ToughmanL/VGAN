@@ -88,7 +88,7 @@ def Merge(path):
     base_move_total = base_move_total.sort_values(by=['Person', 'Filename']).reset_index(drop=True)
     return base_move_total
 
-root_path = '/mnt/shareEEx/liuxiaokang/data/lsj_work/lxk_Lipspeech/data_process/audio_feat_process/python_script/GMM'
+root_path = '/lsj_work/lxk_Lipspeech/data_process/audio_feat_process/python_script/GMM'
 
 if __name__ == '__main__':
     feat_dir = os.path.join(root_path, 'data/gmmfeat')

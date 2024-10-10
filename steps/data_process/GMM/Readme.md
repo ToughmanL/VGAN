@@ -11,8 +11,8 @@
       + 处理前 7817 条数据
       + 处理后 6906 条数据
    4. 路径
-      + 代码：/mnt/shareEEx/liuxiaokang/data/lsj_work/GMM/textgridprop.py
-      + 数据：/mnt/shareEEx/liuxiaokang/data/lsj_work/GMM/data/textgrid
+      + 代码：/lsj_work/GMM/textgridprop.py
+      + 数据：/lsj_work/GMM/data/textgrid
 
    ### 特征提取
    1. 参数
@@ -20,8 +20,8 @@
    2. 特征(41维)
       + 13维mfcc, 13维mfcc一阶差分，13维二阶差分，一维pitch，一维过零率
    3. 路径
-      + 代码：/mnt/shareEEx/liuxiaokang/data/lsj_work/GMM/feats.py
-      + 数据：/mnt/shareEEx/liuxiaokang/data/lsj_work/GMM/data/textgrid
+      + 代码：/lsj_work/GMM/feats.py
+      + 数据：/lsj_work/GMM/data/textgrid
 
    ### 模型训练
    1. 输入数据
@@ -43,13 +43,6 @@
    3. 规则
       + 结果序列中点前的最后一个辅音标签作为辅音的终止
    4. 结果和评价 
-      |     规则前     | precision| recall  | f1-score |  support |
-      |  ----          | ----     | ----    | ----  | ----  |
-      |      0.0       | 0.51     | 0.49    |  0.50 | 16020 |
-      |      1.0       | 0.86     | 0.87    |  0.86 | 55920 |
-      |    accuracy    |          |         |  0.78 | 71940 |
-      |   macro avg    |   0.68   | 0.68    |  0.68 | 71940 |
-      | weighted avg   |   0.78   | 0.78    |  0.78 | 71940 |
       
       |     规则后     | precision| recall  | f1-score |  support |
       |  ----          | ----     | ----    | ----  | ----  |
