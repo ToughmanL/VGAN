@@ -1,0 +1,15 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+feat_path: 'None'
+cmvn_path: 'None'
+dataloader: 'IterDataset'
+checkpoint: False
+migration: False
+feat_type: 'stft'
+model: 'RESNET_STFT'
+model_dir: 'models/nn_model/RESNETSTFT_2/'
+earlystop: 3
+sample_rate: 0.3
+EPOCHS: 100
+BATCH_SIZE: 64
+LEARNING_RATE: 0.007
+NUM_FEATURES: 570

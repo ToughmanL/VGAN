@@ -1,0 +1,22 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/av_loop_feats_0922.csv'
+feat_type: 'loop_av_featnorm'
+nodemode: 'vowel'
+dataloader: 'gnn_dataloader'
+model: 'GAT1NN2_AV'
+checkpoint: False
+migration: False
+model_dir: 'models/nn_model/GAT1NN2_AV_3/'
+earlystop: 20
+nfeat: 30
+n_hidden: 32
+n_heads: 3
+dropout: 0.6
+out_channel: 32
+include_edges: True
+sample_rate: 1
+EPOCHS: 200
+BATCH_SIZE: 1024
+# LEARNING_RATE: 0.01
+LEARNING_RATE: 0.01
+NUM_FEATURES: 90
+# gnncustom基础上进行试验，对标签进行标准化

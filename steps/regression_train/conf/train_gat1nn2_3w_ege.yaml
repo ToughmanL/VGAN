@@ -1,0 +1,24 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+feat_path: '/tmp/LXKDATA/result_intermediate/egemaps.json'
+cmvn_path: 'data/cmvn.json'
+feat_type: 'egemaps'
+nodemode: 'vowel'
+dataloader: 'gnn_dataloader'
+model: 'GAT1NN2'
+checkpoint: False
+migration: False
+model_dir: 'models/nn_model/GAT1NN2_3/'
+nfeat: 88
+earlystop: 20
+n_hidden: 32
+n_heads: 3
+dropout: 0.35
+out_channel: 16
+include_edges: True
+sample_rate: 1
+EPOCHS: 150
+# BATCH_SIZE: 256
+BATCH_SIZE: 512
+LEARNING_RATE: 0.015
+NUM_FEATURES: 84
+# gnncustom基础上进行试验，对标签进行标准化

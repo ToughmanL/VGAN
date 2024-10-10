@@ -1,0 +1,16 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+# feat_path: '/tmp/LXKDATA/result_intermediate/mfcc.json'
+# cmvn_path: 'data/cmvn.json'
+dataloader: 'IterDataset'
+checkpoint: False
+migration: False
+feat_type: 'mfcc'
+model: 'CNN2_MFCC'
+model_dir: 'models/nn_model/CNN2_MFCC_2/models/'
+pic_dir: 'models/nn_model/CNN2_MFCC_2/pics/'
+earlystop: 3
+sample_rate: 0.3
+EPOCHS: 50
+BATCH_SIZE: 128
+LEARNING_RATE: 0.005
+NUM_FEATURES: 90

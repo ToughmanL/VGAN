@@ -1,0 +1,10 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0714.csv'
+feat_type: 'loop_featnorm'
+model: 'DNNRegression'
+model_dir: 'models/nn_model/DNNRegression/'
+earlystop: 20
+sample_rate: 1
+EPOCHS: 200
+BATCH_SIZE: 128
+LEARNING_RATE: 0.005
+NUM_FEATURES: 90

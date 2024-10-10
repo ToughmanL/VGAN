@@ -1,0 +1,98 @@
+re_lsj_featnorm.log
+  鲁尚军特征
+re_lsj_featnorm_delete.log
+  鲁尚军特征删除有错误的特征
+re_loop_featnorm_dnndrop.log
+  循环特征78维，dnndrop
+re_loop_featnorm_dnn.log
+  循环特征78维，dnn
+loop_featnorm_dnn_1layer_normY.log
+  循环特征78维，一层dnn，标签标准化
+loop_featnorm_dnn_1layer_centraY.log
+  循环特征78维，一层dnn，标签中心化
+loop_featnorm_dnn_1layer_adamw.log
+  循环特征78维，一层dnn，adamw优化器
+loop_gop_vowelnn1_0320.log
+  循环特征78维，vowelnn1
+loop_gop_vowelgnncustom_230327.log
+  循环特征78维，vowelgnncustom
+loop_gop_vowelgat1_0325.log
+  循环特征78维，vowelgat1
+loop_gop_vowelgat3.log
+  循环特征78维，vowelgat3
+loop_gop_vowelgatnn1_0329.log
+  循环特征78维，vowelgatnn1
+loop_gop_vowelnn3_0320.log
+  循环特征78维，vowelnn3
+loop_ml_feat.log
+  循环特征78维，机器学习
+loop_gop_ml_feat90.log
+  循环特征90维，机器学习
+loop_gop_ml_feat84.log
+  循环特征84维，机器学习
+loop_featnorm_dropdnn.log
+  循环特征90维，dropdnn
+loop_gop_dnndrop_feat84.log
+  循环特征84维，dropdnn
+loop_gop_dnndrop_feat84_1.log
+  循环特征84维，dropdnn
+loop_gop_dnndrop_feat90.log
+  循环特征90维，dropdnn
+loop_gop_vowelgnncustom_y0.3_0404.log
+  循环特征90维，vowelgnncustom，30%数据
+loop_gop_vowelnn1_0407.log
+  循环特征90维，vowelnn1
+loop_gop_gat1nn2_7.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn2_5.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn2_2.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn2_3.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn2_4.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn_230404.log
+  循环特征84维，gat1nn
+loop_gop_gat1nn2_6.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn3_1.log
+  循环特征84维，gat1nn3
+loop_gop_gat2nn3_3.log
+  循环特征84维，gat1nn2
+loop_gop_gat1nn4_1.log
+  循环特征84维，gat1nn4
+loop_gop_gat1nn4_2.log
+  循环特征84维，gat1nn4
+loop_gop_gat1nn5_1.log
+  循环特征84维，gat1nn5
+loop_gop_gat1nn6_1.log
+  循环特征84维，gat1nn6
+loop_gop_gat1nn9_1.log
+  循环特征84维，gat1nn9 迁移，使用gatnn7_1的nn 和 gat1nn6_1的GAT
+loop_gop_gat1nn9_2.log
+  循环特征84维，gat1nn9 迁移，使用gatnn7_2的nn 和 gat1nn6_2的GAT
+loop_gop_gat1nn10_1.log
+  循环特征84维，gat1nn10
+loop_gop_gat1nn10_2.log
+  循环特征84维，gat1nn10 迁移，使用gatnn7_2的nn 和 gat1nn6_2的GAT，多迁移一层
+loop_gop_gat1nn8_1.log
+  循环特征84维，gat1nn8
+loop_gop_gat1nn8_2.log
+  循环特征84维，gat2nn8
+loop_gop_gat1nn4_3.log
+  循环特征84维，gat1nn4
+loop_gop_gat1nn7_1.log
+  循环特征84维，gat1nn7
+loop_gop_gat1nn6_2.log
+  循环特征84维，gat1nn6
+loop_gop_gat2nn3_2.log
+  循环特征84维，gat2nn3
+loop_gop_gat2nn4_1.log
+  循环特征84维，gat2nn4
+loop_gop_gat2nn5_1.log
+  循环特征84维，gat2nn5
+loop_gop_gat2nn3_1.log
+  循环特征84维，gat2nn3
+
+readme.md

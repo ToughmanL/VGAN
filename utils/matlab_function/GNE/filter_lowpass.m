@@ -1,0 +1,13 @@
+function h=filter_lowpass(fp,fc,Ap,As,f_s);
+wp=(fp/f_s)*2*pi;
+ws=(fc/f_s)*2*pi;
+tr_width=ws-wp;
+M=ceil(6.6*pi/tr_width)+1;
+wc=(wp+ws)/2;
+n=[0:1:M-1];
+hd=ideallp(wc,M);
+w_ham=(hamming(M))';
+h = hd .* w_ham;
+% ffth = fft(h,1024);
+% w_new = (1:1:1024)/1024*fs;
+% plot(w_new,abs(ffth));title('Éè¼ÆµÄÂË²¨Æ÷ÆµÆ×');

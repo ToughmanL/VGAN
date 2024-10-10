@@ -1,0 +1,10 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0705.csv'
+feat_type: 'gop_loop_featnorm'
+model: 'gop_linear'
+model_dir: 'models/nn_model/gop_linear/models/'
+pic_dir: 'models/nn_model/gop_linear/pics/'
+sample_rate: 1
+EPOCHS: 250
+BATCH_SIZE: 1024
+LEARNING_RATE: 0.01
+NUM_FEATURES: 90

@@ -1,0 +1,5 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+feat_type: 'loop_featnorm'
+model_dir: 'models/ml_model/loop_gop_feat90_3w/'
+sample_rate: 0.1
+multi_num: 1

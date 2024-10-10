@@ -1,0 +1,24 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+nodemode: 'vowel'
+dataloader: 'IterDataset'
+feat_type: 'papi_cmrlv'
+model: 'GAT1NN2PAPICMRLV'
+checkpoint: 'models/nn_model/GAT1NN2PAPICMRLV/models//Frenchay_fold_0_best.pt'
+model_dir: 'models/nn_model/GAT1NN2PAPICMRLV/'
+# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/GAT1NN2PAPICMRLV/'
+earlystop: 10
+# input_dim: 276 # 256->10 + 20, cmlrv映射为10维
+nfeat: 276
+n_hidden: 64
+n_heads: 3
+dropout: 0.5
+out_channel: 32
+include_edges: True
+sample_rate: 0.5
+EPOCHS: 200
+BATCH_SIZE: 128
+LEARNING_RATE: 0.008
+NUM_FEATURES: 20
+# gnncustom基础上进行试验，对标签进行标准化
+
+  

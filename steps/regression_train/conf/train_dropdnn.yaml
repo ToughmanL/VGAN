@@ -1,0 +1,11 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_0922.csv'
+feat_type: 'loop_featnorm'
+model: 'DNNDrop_3'
+# model_dir: 'models/nn_model/DNNDrop_3w_3/'
+model_dir: 'models/nn_model/DNNDrop_4/'
+earlystop: 20
+sample_rate: 0.7
+EPOCHS: 100
+BATCH_SIZE: 1024
+LEARNING_RATE: 0.01
+NUM_FEATURES: 90

@@ -1,0 +1,24 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/av_loop_feats_0922.csv'
+nodemode: 'vowel'
+dataloader: 'IterDataset'
+feat_type: 'papi_lipcmrlv'
+model: 'GAT1NN2PAPILIPCMRLV'
+model_dir: 'models/nn_model/GAT1NN2PAPILIPCMRLV/'
+checkpoint: False
+# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/GAT1NN2PAPILIPCMRLV/'
+earlystop: 10
+# input_dim: 40 # 256->10 + 10 + 20, cmlrv映射为10维
+nfeat: 286
+n_hidden: 64
+n_heads: 3
+dropout: 0.4
+out_channel: 32
+include_edges: True
+sample_rate: 0.5
+EPOCHS: 200
+BATCH_SIZE: 128
+LEARNING_RATE: 0.008
+NUM_FEATURES: 20
+# gnncustom基础上进行试验，对标签进行标准化
+
+  

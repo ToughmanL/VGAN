@@ -1,0 +1,39 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/av_loop_feats_0922.csv'
+nodemode: 'vowel'
+dataloader: 'IterDataset'
+feat_type: 'papi_lipcmrlv'
+model: 'AV_LIPCMLRVPAPI_add'
+model_dir: 'models/nn_model/AV_LIPCMLRVPAPI_add/'
+# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/AV_LIPCMLRVPAPI_add/'
+earlystop: 10
+checkpoint: 'models/nn_model/AV_LIPCMLRVPAPI_add/models/Frenchay_fold_0_best.pt'
+
+audio:
+  nfeat: 20 # papi
+  n_hidden: 64
+  n_heads: 3
+  dropout: 0.4
+  out_channel: 32
+  checkpoint: 'models/nn_model/GAT1NN2PAPI/models/Frenchay_fold_0_best.pt'
+
+video:
+  nfeat: 266 # cmlrv
+  n_hidden: 64
+  n_heads: 3
+  dropout: 0.4
+  out_channel: 32
+  checkpoint: 'models/nn_model/GAT1NN2LIPCMRLV/models/Frenchay_fold_0_best.pt'
+
+fusion_type: 'add'
+hidden_size: 64
+dropout: 0.05
+
+include_edges: True
+sample_rate: 0.5
+EPOCHS: 100
+BATCH_SIZE: 128
+LEARNING_RATE: 0.008
+NUM_FEATURES: 20
+# gnncustom基础上进行试验，对标签进行标准化
+
+  

@@ -1,0 +1,16 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/phase_setment_1119.csv'
+feat_path: 'None'
+cmvn_path: 'None'
+dataloader: 'IterDataset'
+checkpoint: False
+migration: False
+feat_type: 'stft'
+model: 'RESNET_STFT'
+model_dir: 'models/nn_model/RESNETSTFT_1/'
+accum_grad: 4
+earlystop: 10
+sample_rate: 1
+EPOCHS: 100
+BATCH_SIZE: 32
+LEARNING_RATE: 0.007
+NUM_FEATURES: 570

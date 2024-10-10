@@ -1,0 +1,16 @@
+feat_csv: 'data/result_intermediate/acoustic_loop_feats_0922.csv'
+feat_path: '/tmp/LXKDATA/result_intermediate/egemaps.json'
+cmvn_path: 'data/cmvn.json'
+dataloader: 'BaseFeatDataLoder'
+checkpoint: False
+migration: False
+feat_type: 'egemaps'
+model: 'DNNDrop_2'
+model_dir: 'models/nn_model/DNN_EGEMAPS_3/'
+earlystop: 20
+sample_rate: 1
+EPOCHS: 200
+BATCH_SIZE: 64
+LEARNING_RATE: 0.005
+NUM_FEATURES: 88
+# pca

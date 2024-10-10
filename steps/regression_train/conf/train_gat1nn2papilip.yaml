@@ -1,0 +1,23 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/av_loop_feats_0922.csv'
+nodemode: 'vowel'
+dataloader: 'IterDataset'
+feat_type: 'papi_lip'
+model: 'GAT1NN2PAPILIP'
+model_dir: 'models/nn_model/GAT1NN2PAPILIP/'
+# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/GAT1NN2PAPILIP/'
+checkpoint: 'models/nn_model/GAT1NN2PAPILIP/models/Frenchay_fold_0_best.pt'
+earlystop: 10
+nfeat: 30
+n_hidden: 64
+n_heads: 3
+dropout: 0.5
+out_channel: 16
+include_edges: True
+sample_rate: 0.7
+EPOCHS: 200
+BATCH_SIZE: 128
+LEARNING_RATE: 0.005
+NUM_FEATURES: 20
+# gnncustom基础上进行试验，对标签进行标准化
+
+  

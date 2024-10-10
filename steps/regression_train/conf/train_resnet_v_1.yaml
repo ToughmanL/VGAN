@@ -1,0 +1,12 @@
+feat_csv: '/tmp/LXKDATA/result_intermediate/acoustic_loop_feats_sel_3w.csv'
+feat_type: 'loop_featnorm_avi'
+model_json: 'conf/lrw_resnet18_dctcn.json'
+model: 'ResnetGat1nn2'
+model_dir: 'models/nn_model/ResnetGat1nn2_2/'
+modality: 'video'
+earlystop: 20
+sample_rate: 0.1
+EPOCHS: 200
+BATCH_SIZE: 8
+LEARNING_RATE: 0.005
+NUM_FEATURES: 90
