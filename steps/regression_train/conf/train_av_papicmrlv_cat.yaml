@@ -4,7 +4,6 @@ dataloader: 'IterDataset'
 feat_type: 'papi_cmrlv'
 model: 'AV_CMLRVPAPI_cat'
 model_dir: 'models/nn_model/AV_CMLRVPAPI_cat/'
-# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/AV_CMLRVPAPI_cat/'
 earlystop: 10
 checkpoint: None
 

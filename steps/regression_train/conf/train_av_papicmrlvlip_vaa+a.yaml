@@ -4,7 +4,6 @@ dataloader: 'IterDataset'
 feat_type: 'papi_lipcmrlv'
 model: 'AV_LIPCMLRVPAPI_vaa+a'
 model_dir: 'models/nn_model/AV_LIPCMLRVPAPI_vaa+a/'
-# model_dir: '/mnt/shareEEx/yangyudong/liuxiaokang/regression/models/nn_model/AV_LIPCMLRVPAPI_vaa+a/'
 earlystop: 10
 checkpoint: None
 
@@ -15,7 +14,6 @@ audio:
   dropout: 0.4
   out_channel: 32
   checkpoint: 'models/nn_model/GAT1NN2PAPI/models/Frenchay_fold_0_best.pt'
-  # checkpoint: '/mnt/shareEEx/liuxiaokang/workspace/dysarthria-diagnosis/steps/regression_train/models/nn_model/GAT1NN2PAPI/models/Frenchay_fold_0_best.pt'
 
 video:
   nfeat: 266 # cmlrv
@@ -24,7 +22,6 @@ video:
   dropout: 0.4
   out_channel: 32
   checkpoint: 'models/nn_model/GAT1NN2LIPCMRLV/models/Frenchay_fold_0_best.pt'
-  # checkpoint: '/mnt/shareEEx/liuxiaokang/workspace/dysarthria-diagnosis/steps/regression_train/models/nn_model/GAT1NN2LIPCMRLV/models/Frenchay_fold_0_best.pt'
 
 fusion_type: 'vaa+a'
 hidden_size: 64
